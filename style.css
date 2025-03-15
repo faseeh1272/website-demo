@@ -82,6 +82,7 @@ ul li {
     flex-direction: column;
     align-items: center;
     margin-top: 210px; 
+    color: white;
 }
 .hero-heading {
     font-size: 80px;
@@ -106,7 +107,7 @@ ul li {
 }
 
 .why-choose {
-    margin-top: 20px; 
+    margin-top: 40px; 
     padding: 40px 0; 
    color: black;
 }
@@ -144,7 +145,7 @@ text-transform: capitalize;
 /* choose section start */
 
 .choose-box{
-    padding: 50px;
+    padding: 42px;
   box-shadow: 0 5px 15px 0 rgb(110 110 110 / 19%);
   text-align: center;
 }
@@ -169,7 +170,7 @@ a.read{
 section.about-company-section{
     width: 100%;
     color: black;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 p.about-para {
     font-size: 17px;
@@ -231,6 +232,7 @@ span.block{
     background-image: url("./images/solut-bg.png");
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 .first-blue-section::before {
@@ -247,7 +249,7 @@ span.block{
     z-index: 2; 
     padding: 20px; 
     line-height: 2;
-}
+}       
 h2.blue-content-heading{
     font-size: 50px;
     font-weight: bold;
@@ -257,3 +259,146 @@ p.blue-content-para{
     font-weight: 400;
     font-size: large;
 }
+/* swiper-section start */
+section.swiper-section{
+    margin-top: 70px;
+}
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+
+
+    /* second-slider-section start */
+    .second-slider{
+        margin-top:90px;
+    }
+    swiper-slide{
+        border-radius: 5px;
+    }
+    div.second-slider-box{
+        padding: 23px;
+       
+    }
+    p.second-para{
+        color:slategrey;
+        line-height: 2;
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h2.heading-box{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    p.box-para{
+        color: slategray;
+        font-size: 15px;
+    }
+    h5.snoop {
+        font-weight: 800;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    p.google {
+        color: red;
+        font-size: 14px;
+    }
+    .box-content-img.d-flex.text-center.align-items-center {
+        line-height: 1;
+    }
+    
+    .hover-red:hover{
+        border:1px solid #E62E2D;
+    }
+
+
+    /* faqs section start */
+    section.faq {
+        background-color: #1C33A1;
+        margin-top: 70px;
+        padding: 40px;
+        align-items: center;
+    }
+    div#accordionFlushExample {
+        align-items: center;
+        margin-top: 60px;
+    }
+    accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+       
+        border-radius: 5px;
+    }
+
+    .c-white{
+        color: white;
+    }
